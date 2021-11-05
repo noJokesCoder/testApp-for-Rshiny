@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.dataTables_length {
+  display: none;
+}
+.dataTables_paginate.paging_simple_numbers {
+  display: none;
+}
+.dataTables_filter {
+  display: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: rgb(85, 155, 198);
+  background: radial-gradient(
+    circle,
+    rgba(85, 155, 198, 1) 2%,
+    rgba(71, 104, 189, 0.9878326330532213) 99%
+  );
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+.well {
+  backdrop-filter: blur(4px) saturate(75%);
+  -webkit-backdrop-filter: blur(4px) saturate(75%);
+  background-color: rgba(255, 255, 255, 0.81);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  color: #000000;
+}
+form.well {
+  backdrop-filter: blur(4px) saturate(75%);
+  -webkit-backdrop-filter: blur(4px) saturate(75%);
+  background-color: rgba(194, 194, 194, 0.97);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.col-sm-8 > .well {
+  backdrop-filter: blur(4px) saturate(75%);
+  -webkit-backdrop-filter: blur(4px) saturate(75%);
+  background-color: rgba(194, 194, 194, 0.97);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.btn.btn-primary {
+  background: rgb(85, 155, 198);
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+.btn.btn-primary:hover {
+  backdrop-filter: blur(4px) saturate(75%);
+  -webkit-backdrop-filter: blur(4px) saturate(75%);
+  background-color: rgba(9, 87, 176, 0.97);
+  border: 1px solid #000000;
+}
