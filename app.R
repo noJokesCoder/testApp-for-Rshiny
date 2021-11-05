@@ -4,6 +4,7 @@ myData <- read.csv("./table.csv")
 
 ui <- fluidPage( 
  includeCSS("styles.css"),
+ tags$head(tags$link(rel="shortcut icon", type="image/x-icon", href="favicon.ico")),
   tags$h1("World's Population stats"),
   
     sidebarLayout(
